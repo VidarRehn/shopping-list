@@ -88,7 +88,6 @@ function displayLocalStorage(){
                 return object.namn == nameOfItem.innerText;
             })
 
-            console.log(productsArray);
             productsArray.splice(indexOfListItem, 1);
             localStorage.setItem("products", JSON.stringify(productsArray));
             parentElement.remove();
@@ -107,7 +106,7 @@ const autocompleteContainer = document.querySelector("#autocomplete ul");
 getProducts().then(data => {
     let productList = data.varor;
     
-    itemInput.addEventListener("input", (x)=>{
+    itemInput.addEventListener("keyup", (x)=>{
         x.preventDefault();
         autocompleteContainer.innerHTML = "";
         
