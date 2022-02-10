@@ -1,4 +1,7 @@
 
+console.log("hej")
+
+
 // get products from json
 
 async function getProducts(){
@@ -6,6 +9,10 @@ async function getProducts(){
     const data = await response.json();
     return data;
 }
+
+getProducts().then(data => {
+    console.log(data);
+})
 
 // check if local storage exists
 
