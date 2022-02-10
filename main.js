@@ -37,9 +37,12 @@ const frozen = document.querySelector("#fryst");
 const snacks = document.querySelector("#snacks");
 const nonFood = document.querySelector("#icke-mat")
 
+
+
 function displayLocalStorage(){
 
-    const itemsInList = JSON.parse(localStorage.getItem("products"));
+    let itemsInList = [];
+    itemsInList = JSON.parse(localStorage.getItem("products"));
 
     itemsInList.forEach(item => {
 
