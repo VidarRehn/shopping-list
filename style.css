@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  margin-top: 30px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+main form input {
+  width: 200px;
+  margin-top: 20px;
+  padding: 5px 5px;
+}
+
+main form ul {
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 0 4px 10px 0px black;
+          box-shadow: 0 4px 10px 0px black;
+}
+
+main form ul li {
+  width: 200px;
+  list-style-type: none;
+  padding: 5px 5px;
+}
+
+main form ul li:hover {
+  background-color: lightgrey;
+}
+
+main section {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section .list-item {
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 10px;
+}
+
+main section .list-item button {
+  border: none;
+  padding: 5px 5px;
+}
+
+main section .list-item button:hover {
+  background-color: lightgray;
+}
+
+main section .brod-och-bak {
+  background-color: #aa994e;
+}
+
+main section .gront {
+  background-color: #5da35d;
+}
+
+main section .konserver {
+  background-color: #9898bb;
+}
+
+main section .olja-mm {
+  background-color: #b38989;
+}
+
+main section .kolhydrater {
+  background-color: #c4bb72;
+}
+
+main section .mejeri {
+  background-color: #72c5be;
+}
+
+main section .ost {
+  background-color: #cbdf96;
+}
+
+main section .fryst {
+  background-color: #97c5f0;
+}
+
+main section .snacks {
+  background-color: #e6aaaa;
+}
+
+main section .icke-mat {
+  background-color: #b6b6b6;
+}
+/*# sourceMappingURL=style.css.map */

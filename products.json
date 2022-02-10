@@ -1,0 +1,309 @@
+{
+    "varor": [{
+        "namn": "bröd",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "citron",
+        "kategori": "grönt"
+    },{
+        "namn": "lime",
+        "kategori": "grönt"
+    },{
+        "namn": "avokado",
+        "kategori": "grönt"
+    },{
+        "namn": "örter",
+        "kategori": "grönt"
+    },{
+        "namn": "tomat",
+        "kategori": "grönt"
+    },{
+        "namn": "gurka",
+        "kategori": "grönt"
+    },{
+        "namn": "potatis",
+        "kategori": "grönt"
+    },{
+        "namn": "lök (gul)",
+        "kategori": "grönt"
+    },{
+        "namn": "lök (röd)",
+        "kategori": "grönt"
+    },{
+        "namn": "vitlök",
+        "kategori": "grönt"
+    },{
+        "namn": "morötter",
+        "kategori": "grönt"
+    },{
+        "namn": "vitkål",
+        "kategori": "grönt"
+    },{
+        "namn": "broccoli",
+        "kategori": "grönt"
+    },{
+        "namn": "svamp",
+        "kategori": "grönt"
+    },{
+        "namn": "grönkål",
+        "kategori": "grönt"
+    },{
+        "namn": "blomkål",
+        "kategori": "grönt"
+    },{
+        "namn": "pak choi",
+        "kategori": "grönt"
+    },{
+        "namn": "chilli",
+        "kategori": "grönt"
+    },{
+        "namn": "paprika",
+        "kategori": "grönt"
+    },{
+        "namn": "sallad",
+        "kategori": "grönt"
+    },{
+        "namn": "ruccola",
+        "kategori": "grönt"
+    },{
+        "namn": "mjöl",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "socker",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "bakpulver",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "mandlar",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "havregryn",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "mandelmassa",
+        "kategori": "bröd och bak"
+    },{
+        "namn": "majs",
+        "kategori": "konserver"
+    },{
+        "namn": "bönor",
+        "kategori": "konserver"
+    },{
+        "namn": "krossade tomater",
+        "kategori": "konserver"
+    },{
+        "namn": "majonnäs",
+        "kategori": "konserver"
+    },{
+        "namn": "tomatpuré",
+        "kategori": "konserver"
+    },{
+        "namn": "ketchup",
+        "kategori": "konserver"
+    },{
+        "namn": "senap",
+        "kategori": "konserver"
+    },{
+        "namn": "olivolja",
+        "kategori": "olja mm"
+    },{
+        "namn": "solrosolja",
+        "kategori": "olja mm"
+    },{
+        "namn": "tryffelolja",
+        "kategori": "olja mm"
+    },{
+        "namn": "soja (japansk)",
+        "kategori": "olja mm"
+    },{
+        "namn": "soja (kinesisk)",
+        "kategori": "olja mm"
+    },{
+        "namn": "sesamolja",
+        "kategori": "olja mm"
+    },{
+        "namn": "balsamvinäger",
+        "kategori": "olja mm"
+    },{
+        "namn": "salt",
+        "kategori": "olja mm"
+    },{
+        "namn": "ättika",
+        "kategori": "olja mm"
+    },{
+        "namn": "peppar",
+        "kategori": "olja mm"
+    },{
+        "namn": "spaghetti",
+        "kategori": "kolhydrater"
+    },{
+        "namn": "pasta",
+        "kategori": "kolhydrater"
+    },{
+        "namn": "ris",
+        "kategori": "kolhydrater"
+    },{
+        "namn": "nudlar",
+        "kategori": "kolhydrater"
+    },{
+        "namn": "tortillas",
+        "kategori": "kolhydrater"
+    },{
+        "namn": "ägg",
+        "kategori": "mejeri"
+    },{
+        "namn": "mjölk",
+        "kategori": "mejeri"
+    },{
+        "namn": "ärtmjölk",
+        "kategori": "mejeri"
+    },{
+        "namn": "sojamjölk",
+        "kategori": "mejeri"
+    },{
+        "namn": "smör (bregott)",
+        "kategori": "mejeri"
+    },{
+        "namn": "smör (matlagning)",
+        "kategori": "mejeri"
+    },{
+        "namn": "kvarg",
+        "kategori": "mejeri"
+    },{
+        "namn": "jäst",
+        "kategori": "mejeri"
+    },{
+        "namn": "matgrädde",
+        "kategori": "mejeri"
+    },{
+        "namn": "hushållsost",
+        "kategori": "ost"
+    },{
+        "namn": "halloumi",
+        "kategori": "ost"
+    },{
+        "namn": "fetaost",
+        "kategori": "ost"
+    },{
+        "namn": "parmesan",
+        "kategori": "ost"
+    },{
+        "namn": "riven ost",
+        "kategori": "ost"
+    },{
+        "namn": "mozzarella",
+        "kategori": "ost"
+    },{
+        "namn": "tofu",
+        "kategori": "ost"
+    },{
+        "namn": "kyckling",
+        "kategori": "fryst"
+    },{
+        "namn": "korv",
+        "kategori": "fryst"
+    },{
+        "namn": "nuggets",
+        "kategori": "fryst"
+    },{
+        "namn": "fryspizza",
+        "kategori": "fryst"
+    },{
+        "namn": "pizzakit",
+        "kategori": "fryst"
+    },{
+        "namn": "frysta grönsaker",
+        "kategori": "fryst"
+    },{
+        "namn": "vegofärs",
+        "kategori": "fryst"
+    },{
+        "namn": "frysta bär",
+        "kategori": "fryst"
+    },{
+        "namn": "vegoschnitzel",
+        "kategori": "fryst"
+    },{
+        "namn": "vegokorv",
+        "kategori": "fryst"
+    },{
+        "namn": "godis",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "choklad",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "bakplåtspapper",
+        "kategori": "icke-mat"
+    },{
+        "namn": "aluminiumfolie",
+        "kategori": "icke-mat"
+    },{
+        "namn": "platsfolie",
+        "kategori": "icke-mat"
+    },{
+        "namn": "soppåsar",
+        "kategori": "icke-mat"
+    },{
+        "namn": "tvättmedel",
+        "kategori": "icke-mat"
+    },{
+        "namn": "maskindisk",
+        "kategori": "icke-mat"
+    },{
+        "namn": "diskmedel",
+        "kategori": "icke-mat"
+    },{
+        "namn": "tvål",
+        "kategori": "icke-mat"
+    },{
+        "namn": "shower gel",
+        "kategori": "icke-mat"
+    },{
+        "namn": "schampoo",
+        "kategori": "icke-mat"
+    },{
+        "namn": "hårvax",
+        "kategori": "icke-mat"
+    },{
+        "namn": "c-vitamin",
+        "kategori": "icke-mat"
+    },{
+        "namn": "toalettpapper",
+        "kategori": "icke-mat"
+    },{
+        "namn": "disktrasa",
+        "kategori": "icke-mat"
+    },{
+        "namn": "hushållspapper",
+        "kategori": "icke-mat"
+    },{
+        "namn": "kronljus",
+        "kategori": "icke-mat"
+    },{
+        "namn": "batterier",
+        "kategori": "icke-mat"
+    },{
+        "namn": "värmeljus",
+        "kategori": "icke-mat"
+    },{
+        "namn": "tandkräm",
+        "kategori": "icke-mat"
+    },{
+        "namn": "flux",
+        "kategori": "icke-mat"
+    },{
+        "namn": "läsk",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "chips",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "nötter",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "torkade bär",
+        "kategori": "godis och snacks"
+    }]
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 30px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    form {
+        display: flex;
+        position: relative;
+
+        input {
+            width: 200px;
+            margin-top: 20px;
+            padding: 5px 5px;
+        }
+
+        ul {
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 4px 10px 0px black;
+
+            li {
+                width: 200px;
+                list-style-type: none;
+                padding: 5px 5px;
+
+                &:hover {
+                    background-color: lightgrey;
+                }
+            }
+        }
+    }
+
+    section {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .list-item {
+            width: 300px;
+            margin-top: 10px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10px;
+
+            button {
+                border: none;
+                padding: 5px 5px;
+
+                &:hover {
+                    background-color: lightgray;
+                }
+            }
+        }
+
+        .brod-och-bak {
+            background-color: rgb(170, 153, 78);
+        }
+
+        .gront {
+            background-color: rgb(93, 163, 93);
+        }
+
+        .konserver {
+            background-color: rgb(152, 152, 187);
+        }
+
+        .olja-mm {
+            background-color: rgb(179, 137, 137);
+        }
+
+        .kolhydrater {
+            background-color: rgb(196, 187, 114);
+        }
+
+        .mejeri {
+            background-color: rgb(114, 197, 190);
+        }
+
+        .ost {
+            background-color: rgb(203, 223, 150);
+        }
+
+        .fryst {
+            background-color: rgb(151, 197, 240);
+        }
+
+        .snacks {
+            background-color: rgb(230, 170, 170);
+        }
+
+        .icke-mat {
+            background-color: rgb(182, 182, 182);
+        }
+    }
+}
