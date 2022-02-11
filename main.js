@@ -109,7 +109,7 @@ const autocompleteContainer = document.querySelector("#autocomplete ul");
 getProducts().then(data => {
     let productList = data.varor;
     
-    itemInput.addEventListener("keyup", (x)=>{
+    itemInput.addEventListener("input", (x)=>{
         x.preventDefault();
         autocompleteContainer.innerHTML = "";
         
