@@ -1,7 +1,3 @@
-
-console.log("hej")
-
-
 // get products from json
 
 async function getProducts(){
@@ -9,10 +5,6 @@ async function getProducts(){
     const data = await response.json();
     return data;
 }
-
-getProducts().then(data => {
-    console.log(data);
-})
 
 // check if local storage exists
 
@@ -41,69 +33,70 @@ const nonFood = document.querySelector("#icke-mat")
 
 function displayLocalStorage(){
 
-    let itemsInList = [];
-    itemsInList = JSON.parse(localStorage.getItem("products"));
+    if (JSON.parse(localStorage.getItem("products"))){
+        let itemsInList = JSON.parse(localStorage.getItem("products"));
 
-    itemsInList.forEach(item => {
-
-        const newListItem = document.createElement("div");
-        newListItem.classList.add("list-item");
-        const itemName = document.createElement("p");
-        const deleteBtn = document.createElement("button");
-
-        itemName.innerText = item.namn;
-        deleteBtn.innerHTML = 'remove';
-
-        newListItem.append(itemName, deleteBtn);
-
-        if (item.kategori == "bröd och bak"){
-            newListItem.classList.add("brod-och-bak")
-            bread.prepend(newListItem)
-        } else if (item.kategori == "grönt"){
-            newListItem.classList.add("gront")
-            vegetables.prepend(newListItem);
-        } else if (item.kategori == "konserver"){
-            newListItem.classList.add("konserver")
-            conserves.prepend(newListItem);
-        } else if (item.kategori == "olja mm"){
-            newListItem.classList.add("olja-mm")
-            oils.prepend(newListItem)
-        } else if (item.kategori == "kolhydrater"){
-            newListItem.classList.add("kolhydrater")
-            carbs.prepend(newListItem)
-        } else if (item.kategori == "mejeri"){
-            newListItem.classList.add("mejeri")
-            dairy.prepend(newListItem)
-        } else if (item.kategori == "ost"){
-            newListItem.classList.add("ost")
-            cheese.prepend(newListItem)
-        } else if (item.kategori == "fryst"){
-            newListItem.classList.add("fryst")
-            frozen.prepend(newListItem)
-        } else if (item.kategori == "godis och snacks"){
-            newListItem.classList.add("snacks")
-            snacks.prepend(newListItem)
-        } else if (item.kategori == "icke-mat"){
-            newListItem.classList.add("icke-mat")
-            nonFood.prepend(newListItem)
-        } 
-
-        // remove item from list and array on button click
-
-        deleteBtn.addEventListener("click", (x)=>{
-            let parentElement = x.target.parentElement;
-            let nameOfItem = parentElement.children[0];
-
-            let indexOfListItem = productsArray.findIndex(object => {
-                return object.namn == nameOfItem.innerText;
+        itemsInList.forEach(item => {
+    
+            const newListItem = document.createElement("div");
+            newListItem.classList.add("list-item");
+            const itemName = document.createElement("p");
+            const deleteBtn = document.createElement("button");
+    
+            itemName.innerText = item.namn;
+            deleteBtn.innerHTML = 'remove';
+    
+            newListItem.append(itemName, deleteBtn);
+    
+            if (item.kategori == "bröd och bak"){
+                newListItem.classList.add("brod-och-bak")
+                bread.prepend(newListItem)
+            } else if (item.kategori == "grönt"){
+                newListItem.classList.add("gront")
+                vegetables.prepend(newListItem);
+            } else if (item.kategori == "konserver"){
+                newListItem.classList.add("konserver")
+                conserves.prepend(newListItem);
+            } else if (item.kategori == "olja mm"){
+                newListItem.classList.add("olja-mm")
+                oils.prepend(newListItem)
+            } else if (item.kategori == "kolhydrater"){
+                newListItem.classList.add("kolhydrater")
+                carbs.prepend(newListItem)
+            } else if (item.kategori == "mejeri"){
+                newListItem.classList.add("mejeri")
+                dairy.prepend(newListItem)
+            } else if (item.kategori == "ost"){
+                newListItem.classList.add("ost")
+                cheese.prepend(newListItem)
+            } else if (item.kategori == "fryst"){
+                newListItem.classList.add("fryst")
+                frozen.prepend(newListItem)
+            } else if (item.kategori == "godis och snacks"){
+                newListItem.classList.add("snacks")
+                snacks.prepend(newListItem)
+            } else if (item.kategori == "icke-mat"){
+                newListItem.classList.add("icke-mat")
+                nonFood.prepend(newListItem)
+            } 
+    
+            // remove item from list and array on button click
+    
+            deleteBtn.addEventListener("click", (x)=>{
+                let parentElement = x.target.parentElement;
+                let nameOfItem = parentElement.children[0];
+    
+                let indexOfListItem = productsArray.findIndex(object => {
+                    return object.namn == nameOfItem.innerText;
+                })
+    
+                productsArray.splice(indexOfListItem, 1);
+                localStorage.setItem("products", JSON.stringify(productsArray));
+                parentElement.remove();
             })
-
-            productsArray.splice(indexOfListItem, 1);
-            localStorage.setItem("products", JSON.stringify(productsArray));
-            parentElement.remove();
+    
         })
-
-    })
+    }
 }
 
 displayLocalStorage();
@@ -155,7 +148,5 @@ getProducts().then(data => {
                 }
             }
         });
-
-    
     })
 })
