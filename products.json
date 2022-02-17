@@ -81,6 +81,9 @@
         "namn": "havregryn",
         "kategori": "bröd och bak"
     },{
+        "namn": "jordnötssmör",
+        "kategori": "bröd och bak"
+    },{
         "namn": "mandelmassa",
         "kategori": "bröd och bak"
     },{
@@ -109,6 +112,12 @@
         "kategori": "konserver"
     },{
         "namn": "senap",
+        "kategori": "konserver"
+    },{
+        "namn": "buljong",
+        "kategori": "konserver"
+    },{
+        "namn": "fond",
         "kategori": "konserver"
     },{
         "namn": "olivolja",
@@ -163,6 +172,9 @@
         "kategori": "mejeri"
     },{
         "namn": "ärtmjölk",
+        "kategori": "mejeri"
+    },{
+        "namn": "gräddfil",
         "kategori": "mejeri"
     },{
         "namn": "sojamjölk",
