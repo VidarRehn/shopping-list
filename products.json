@@ -195,6 +195,9 @@
         "namn": "matgrädde",
         "kategori": "mejeri"
     },{
+        "namn": "vispgrädde",
+        "kategori": "mejeri"
+    },{
         "namn": "hushållsost",
         "kategori": "ost"
     },{
@@ -216,10 +219,16 @@
         "namn": "tofu",
         "kategori": "ost"
     },{
+        "namn": "pizzakit",
+        "kategori": "ost"
+    },{
         "namn": "kyckling",
         "kategori": "fryst"
     },{
         "namn": "korv",
+        "kategori": "fryst"
+    },{
+        "namn": "kött",
         "kategori": "fryst"
     },{
         "namn": "nuggets",
@@ -244,6 +253,9 @@
         "kategori": "fryst"
     },{
         "namn": "vegokorv",
+        "kategori": "fryst"
+    },{
+        "namn": "glass",
         "kategori": "fryst"
     },{
         "namn": "godis",
@@ -316,6 +328,9 @@
         "kategori": "godis och snacks"
     },{
         "namn": "chips",
+        "kategori": "godis och snacks"
+    },{
+        "namn": "popcorn",
         "kategori": "godis och snacks"
     },{
         "namn": "nötter",
